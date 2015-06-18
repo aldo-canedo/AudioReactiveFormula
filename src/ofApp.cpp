@@ -22,6 +22,8 @@ void ofApp::setup(){
     int bufferSize = 256;
     
     
+    /////inicializo audio //
+    
     left.assign(bufferSize, 0.0);
     right.assign(bufferSize, 0.0);
     volHistory.assign(400, 0.0);
